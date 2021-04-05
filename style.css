@@ -1,0 +1,49 @@
+ 
+  #navbar {
+    text-align: center;
+    display: grid;
+    width: 20%;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    border-right: 3px gray solid;
+    overflow: auto;
+    z-index: 3;
+    position: fixed;
+      
+  }
+  
+ .sidenav a {
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    border-bottom: 1px gray solid;
+    padding: 10px;
+    
+    
+  }
+  
+  header {
+    font-weight: bold;
+    font-size: 30px;
+    
+  }
+  
+  .container-2 {
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    right: -1.5%;
+    top: 11%
+    
+    
+  }
+  
+  code {
+      background-color: lightgray;
+  }
+  
+  @media screen and (min-width: 1024px){
+      height: 50%;
+      width: 50%;
+  }
